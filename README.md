@@ -1,8 +1,9 @@
-# Shopify App Template - Remix
+# Gold Price Monitor
 
-This is a template for building a [Shopify app](https://shopify.dev/docs/apps/getting-started) using the [Remix](https://remix.run) framework.
+Using shopify + remix + react
 
-Rather than cloning this repo, you can use your preferred package manager and the Shopify CLI with [these steps](https://shopify.dev/docs/apps/getting-started/create).
+Allows the user to tie a price to procucts and have the products fluctuate based on the inputted price.
+The price of gold is used as it fluctuates in price, and if you are selling gold based items you'd want your products to reflect accurate pricing.
 
 Visit the [`shopify.dev` documentation](https://shopify.dev/docs/api/shopify-app-remix) for more details on the Remix app package.
 
@@ -141,11 +142,6 @@ Using pnpm:
 pnpm run build
 ```
 
-## Hosting
-
-When you're ready to set up your app in production, you can follow [our deployment documentation](https://shopify.dev/docs/apps/deployment/web) to host your app on a cloud provider like [Heroku](https://www.heroku.com/) or [Fly.io](https://fly.io/).
-
-When you reach the step for [setting up environment variables](https://shopify.dev/docs/apps/deployment/web#set-env-vars), you also need to set the variable `NODE_ENV=production`.
 
 ### Hosting on Vercel
 
